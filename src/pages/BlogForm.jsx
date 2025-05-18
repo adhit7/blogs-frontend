@@ -74,7 +74,7 @@ const BlogForm = () => {
 
     const categoryObj = categories.find((cat) => cat.name === category);
 
-    if (!image && categoryObj) {
+    if (!image) {
       image = categoryObj.image;
     }
 
